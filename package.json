@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "echo skip",
-    "start": "ts-node --skipProject src/index.ts",
+    "start": "ts-node --transpile-only src/index.ts",
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
