@@ -2,10 +2,10 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import express from 'express';
-import migrate from './migrate';
-import startAllCrons from './cron/index';
-import sql from './db';
-import sendTelegram from './monitor/janet';
+import { migrate } from './migrate';
+import { startAllCrons } from './cron/index';
+import { sql } from './db';
+import { sendTelegram } from './monitor/janet';
 
 const PORT = process.env.PORT || 3001;
 const app = express();

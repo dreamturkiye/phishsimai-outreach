@@ -1,5 +1,5 @@
 import { Resend } from 'resend';
-import sql from '../db';
+import { sql } from '../db';
 import {
   checkAntiSpam,
   buildPlainText,

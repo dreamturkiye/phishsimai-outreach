@@ -1,4 +1,4 @@
-import sql from './db';
+import { sql } from './db';
 
 export async function migrate(): Promise<void> {
   console.log('Starting migration...');
